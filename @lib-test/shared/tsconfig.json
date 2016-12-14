@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "noImplicitAny": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": ["dom", "es6"],
+    "baseUrl": "./",
+    "paths": {
+      "@lib-test/shared": ["../src/shared"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./shared.ts"
+  ]
+}

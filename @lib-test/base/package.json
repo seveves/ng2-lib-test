@@ -1,0 +1,38 @@
+{
+  "name": "@lib-test/base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress",
+    "watch": "npm run build -- --watch",
+    "server": "./node_modules/.bin/webpack-dev-server --inline --progress --cors --port 3000 --content-base src",
+    "start": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.3.0",
+    "@angular/compiler": "^2.3.0",
+    "@angular/compiler-cli": "^2.3.0",
+    "@angular/core": "^2.3.0",
+    "@angular/forms": "^2.3.0",
+    "@angular/platform-browser": "^2.3.0",
+    "@angular/platform-browser-dynamic": "^2.3.0",
+    "@angular/platform-server": "^2.3.0",
+    "@angular/router": "^3.3.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.0-rc.4",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "html-loader": "^0.4.4",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^1.1.1"
+  }
+}
