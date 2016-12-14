@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "base.js",
+  "private": true,
   "scripts": {
     "build": "./node_modules/.bin/webpack --progress",
     "watch": "npm run build -- --watch",
