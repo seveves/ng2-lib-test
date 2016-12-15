@@ -6,10 +6,10 @@ Just a library test for angular2 modules
 * cd @lib-test/shared
 * npm install
 * npm run build
-* npm link
+* npm pack
 
 ### Base Module (includes Shared Module)
-* cd @lib-test/Base
+* cd @lib-test/base
 * npm install
-* npm link @lib-test/shared
+* npm install ../shared/lib-test-shared.VERSION.tgz
 * npm start
