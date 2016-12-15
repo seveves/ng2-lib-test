@@ -20,6 +20,6 @@
   ],
   "include": [
     "./src/**/*.ts",
-    "./shared.ts"
+    "./lazy.ts"
   ]
 }

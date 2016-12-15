@@ -1,10 +1,10 @@
 {
-  "name": "@lib-test/shared",
+  "name": "@lib-test/extend",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/shared.js",
-  "types": "lib/shared.d.ts",
-  "typings": "lib/shared",
+  "main": "lib/extend.js",
+  "types": "lib/extend.d.ts",
+  "typings": "lib/extend",
   "scripts": {
     "build": "./node_modules/.bin/tsc -p tsconfig.json"
   },

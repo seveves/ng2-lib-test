@@ -12,7 +12,7 @@ import { SharedModule } from '@lib-test/shared';
   imports: [
     RouterModule,
     BrowserModule,
-    RouterModule.forRoot(rootRouterConfig),
+    RouterModule.forRoot(rootRouterConfig, { enableTracing: true }),
     SharedModule.forRoot()
   ],
   declarations: [AppComponent, HomeComponent],

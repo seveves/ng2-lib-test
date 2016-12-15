@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'shared-component',
-    templateUrl: './shared.component.html'
+    template: `<h3>Shared component</h3><p>This is shared content</p>`
 })
 export class SharedComponent {}
