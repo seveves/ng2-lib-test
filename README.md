@@ -1,5 +1,7 @@
 # ng2-lib-test
-Just a library test for angular2 modules
+Just a library test for angular2 modules that shows the basic concepts how you can create your own library based on several commonjs modules. These modules will be installed to a base angular2 application via npm.
+All this is done with typescript and without any help of a module bundler like rollup.js, webpack or browserify.
+Only the base application uses webpack for creating the angular2 application. The application shows how you can extend components with shared components and how to extend the routes of your base module by other modules both normal and lazy loaded.
 
 ## Setup
 ### Shared Module
