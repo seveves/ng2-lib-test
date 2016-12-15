@@ -9,7 +9,7 @@ Just a library test for angular2 modules
 * npm link
 
 ### Base Module (includes Shared Module)
-* cd @lib-test/Base
+* cd @lib-test/base
 * npm install
 * npm link @lib-test/shared
 * npm start
